@@ -1,3 +1,9 @@
+# revision 20021
+# category Package
+# catalog-ctan /macros/latex/contrib/lkproof
+# catalog-date 2010-10-07 09:27:06 +0200
+# catalog-license gpl
+# catalog-version 3.1
 Name:		texlive-lkproof
 Version:	3.1
 Release:	1
@@ -39,6 +45,7 @@ are used in constructing LK proof diagrams.
 %doc %{_texmfdistdir}/doc/latex/lkproof/lkproof-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/lkproof/lkproof-doc.tex
 %doc %{_texmfdistdir}/doc/latex/lkproof/proofeg.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ are used in constructing LK proof diagrams.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
