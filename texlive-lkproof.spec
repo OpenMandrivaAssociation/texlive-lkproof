@@ -6,7 +6,7 @@
 # catalog-version 3.1
 Name:		texlive-lkproof
 Version:	3.1
-Release:	7
+Release:	8
 Summary:	LK Proof figure macros
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lkproof
