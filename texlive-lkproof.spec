@@ -1,6 +1,6 @@
 Name:		texlive-lkproof
 Version:	20021
-Release:	1
+Release:	2
 Summary:	LK Proof figure macros
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lkproof
